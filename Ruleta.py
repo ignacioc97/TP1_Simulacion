@@ -173,9 +173,9 @@ def ploteotog(numero,tiradas):
     plt.title("Gráfica de promedios")
     plt.show()
 
-# MAIN SECTION
-numero = int(input("Ingrese un numero"))
-tiradas = int(input("Ingrese tiradas"))
-plotpromedios(numero, tiradas)
-ploteograficas(numero, tiradas)
-ploteotog(numero, tiradas)
+# # MAIN SECTION
+# numero = int(input("Ingrese un numero"))
+# tiradas = int(input("Ingrese tiradas"))
+# plotpromedios(numero, tiradas)
+# ploteograficas(numero, tiradas)
+# ploteotog(numero, tiradas)
