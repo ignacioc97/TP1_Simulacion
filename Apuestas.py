@@ -23,7 +23,6 @@ def apuesta_simple(fondos, apuesta_inicial, numero_apuestas):
     while apuestaActual <= numero_apuestas:
         if rollRuleta():
             value += apuesta
-            # append #
             wX.append(apuestaActual)
             vY.append(value)
 
@@ -32,7 +31,7 @@ def apuesta_simple(fondos, apuesta_inicial, numero_apuestas):
             wX.append(apuestaActual)
             vY.append(value)
 
-            if value < 0:
+            if value <= 0:
                 contador_quiebra_simple += 1
                 break
 
@@ -163,7 +162,7 @@ def dAlembert(fondos, apuesta_inicial, numero_apuestas):
 
 
 numero_apostadores = 100
-maximo_apuestas = 500
+maximo_apuestas = 5000
 fondo_inicial = 10000
 valor_apuesta = 1000
 
@@ -218,7 +217,7 @@ print('Probabilidad de sobrevivir dAlembert:', 100 - ((contador_quiebra_dalember
 plt.axhline(10000, color='r')
 plt.ylabel('Fondos')
 plt.xlabel('Numero de apuesta')
-plt.title('Estrategia D"Alembert')
+plt.title('Estrategia DAlembert')
 plt.show()
 
 print("Capital de entrada",(fondo_inicial*numero_apostadores))
