@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceacc726-3081-4946-9378-e7795432ed34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RandomGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apuestas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apuestas.py" afterDir="false" />
     </list>
@@ -30,16 +31,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/UTN2020/Simulacion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tinch\PycharmProjects\untitled" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tinch\Desktop\UTN2020\Simulacion" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Apuestas">
+  <component name="RunManager" selected="Python.RandomGenerator">
     <configuration name="Apuestas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Apuestas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +75,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Apuestas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandomGenerator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RandomGenerator" />
         <item itemvalue="Python.Apuestas" />
         <item itemvalue="Python.Ruleta" />
       </list>
@@ -148,7 +175,17 @@
       <workItem from="1588085259305" duration="7246000" />
       <workItem from="1588096242451" duration="1119000" />
       <workItem from="1588107220106" duration="1698000" />
-      <workItem from="1588112236676" duration="264000" />
+      <workItem from="1588112236676" duration="300000" />
+      <workItem from="1588112621887" duration="45000" />
+      <workItem from="1588112902877" duration="93000" />
+      <workItem from="1588122885366" duration="834000" />
+      <workItem from="1588124088364" duration="897000" />
+      <workItem from="1588173306047" duration="5223000" />
+      <workItem from="1588210256260" duration="733000" />
+      <workItem from="1588268329361" duration="4654000" />
+      <workItem from="1589238572577" duration="1567000" />
+      <workItem from="1589246050994" duration="162000" />
+      <workItem from="1589311292828" duration="5466000" />
     </task>
     <task id="LOCAL-00001" summary="Analisis de estrategias">
       <created>1588112265158</created>
@@ -157,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588112265158</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix error apuesta simple">
+      <created>1588112521872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588112521872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,21 +209,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Analisis de estrategias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Analisis de estrategias" />
+    <MESSAGE value="fix error apuesta simple" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix error apuesta simple" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586455452935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586455452935" />
-    <state x="820" y="121" key="CommitChangelistDialog2" timestamp="1588112264270">
+    <state x="820" y="121" key="CommitChangelistDialog2" timestamp="1588112521167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="820" y="121" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588112264270" />
-    <state x="954" y="387" width="440" height="457" key="FileChooserDialogImpl" timestamp="1586896547297">
+    <state x="820" y="121" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588112521167" />
+    <state x="954" y="387" width="440" height="457" key="FileChooserDialogImpl" timestamp="1588283915339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="954" y="387" width="440" height="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586896547297" />
+    <state x="954" y="387" width="440" height="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588283915339" />
     <state width="1877" height="24" key="GridCell.Tab.0.bottom" timestamp="1588094231662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587585365805" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588112272891">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588112528401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588112272891" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588112528401" />
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586455136558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
